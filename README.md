@@ -22,6 +22,10 @@ We formulate the task of many-layer critical hotspot pattern extraction as a vis
 - **Computer Vision and NLP:** Integrate computer vision and NLP techniques to bridge the gap between visual patterns and textual queries.
 - **Attention Mechanism:** Utilize a layer attention mechanism to dynamically highlight the importance of each layer in hotspot detection, enhancing model interpretability and performance.
 
+<p align="center">
+  <img src="fig/model.png" alt="Model" width="75%" height="75%">
+</p>
+
 ## Results:
 
 Experimental results showcase the superior question-answering ability of our proposed model. It surpasses existing methods on modern layouts with more than thirty layers, demonstrating its effectiveness in hotspot detection and defect type identification.
