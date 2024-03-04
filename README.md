@@ -28,7 +28,8 @@ We formulate the task of many-layer critical hotspot pattern extraction as a vis
 
 ## Results:
 
-Experimental results showcase the superior question-answering ability of our proposed model. It surpasses existing methods on modern layouts with more than thirty layers, demonstrating its effectiveness in hotspot detection and defect type identification.
+Experimental results showcase the superior question-answering ability of our proposed model. It surpasses existing methods on modern layouts with more than thirty layers, demonstrating its effectiveness in hotspot detection and defect type identification. 
+Because prior works do not handle many-layer patterns, we compare our layer-attentioned VQA model with the baseline VQA model.
 
 ## Usage:
 
