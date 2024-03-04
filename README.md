@@ -30,6 +30,10 @@ We formulate the task of many-layer critical hotspot pattern extraction as a vis
 
 The dataset used in this study was collected from 7 layouts with sub-14nm process. It was divided into training and testing sets with an 80-20 split. The dataset consists of 57 defect types selected as queried types. There are 38 layout layers that are possibly involved in the selected defect types. In total, the dataset contains 79,593 triple data points. In the testing set, 480 patterns were labeled to 57 defect types, resulting in 27,360 pattern-defect pairs.
 
+<p align="center">
+  <img src="fig/dataset.png" alt="Dataset">
+</p>
+
 ## Results:
 
 Experimental results showcase the superior question-answering ability of our proposed model. It surpasses existing methods on modern layouts with more than thirty layers, demonstrating its effectiveness in hotspot detection and defect type identification. 
