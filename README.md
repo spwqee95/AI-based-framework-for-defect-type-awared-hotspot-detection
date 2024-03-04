@@ -20,6 +20,11 @@ We formulate the task of many-layer critical hotspot pattern extraction as a vis
 
 - **Deep Learning:** Harness the power of deep learning for analyzing complex layout patterns.
 - **Computer Vision and NLP:** Integrate computer vision and NLP techniques to bridge the gap between visual patterns and textual queries.
+
+<p align="center">
+  <img src="fig/fusion.png" alt="Feature Fusion" width="65%" height="65%">
+</p>
+  
 - **Attention Mechanism:** Utilize a layer attention mechanism to dynamically highlight the importance of each layer in hotspot detection, enhancing model interpretability and performance.
 
 <p align="center">
