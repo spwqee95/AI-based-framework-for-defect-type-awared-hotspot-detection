@@ -5,7 +5,7 @@
 Identifying hotspot patterns and correcting them as early as possible is crucial in ensuring yield and manufacturability in electronic design automation (EDA). Traditional hotspot detection methods often focus on individual layers or adjacent layers, overlooking the complex interactions between multiple layers in modern layouts.
 
 <p align="center">
-  <img src="fig/pattern_extraction.png" alt="Pattern Extraction"  width="65%" height="65%">
+  <img src="fig/pattern_extraction.png" alt="Pattern Extraction"  width="70%" height="70%">
 </p>
 
 ## Approach:
@@ -13,7 +13,7 @@ Identifying hotspot patterns and correcting them as early as possible is crucial
 We formulate the task of many-layer critical hotspot pattern extraction as a visual question answering (VQA) problem. Treating a many-layer layout pattern as an image and a defect type as a question, our approach introduces a layer-attentioned VQA model.
 
 <p align="center">
-  <img src="fig/approach.png" alt="VQA Model" width="70%" height="70%">
+  <img src="fig/approach.png" alt="VQA Model" width="75%" height="75%">
 </p>
 
 ## Key Features:
@@ -22,13 +22,13 @@ We formulate the task of many-layer critical hotspot pattern extraction as a vis
 - **Computer Vision and NLP:** Integrate computer vision and NLP techniques to bridge the gap between visual patterns and textual queries.
 
 <p align="center">
-  <img src="fig/fusion.png" alt="Feature Fusion" width="65%" height="65%">
+  <img src="fig/fusion.png" alt="Feature Fusion" width="70%" height="70%">
 </p>
   
 - **Attention Mechanism:** Utilize a layer attention mechanism to dynamically highlight the importance of each layer in hotspot detection, enhancing model interpretability and performance.
 
 <p align="center">
-  <img src="fig/model.png" alt="Model" width="65%" height="65%">
+  <img src="fig/model.png" alt="Model" width="70%" height="70%">
 </p>
 
 ## Dataset:
