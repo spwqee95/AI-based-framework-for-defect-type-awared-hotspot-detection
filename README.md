@@ -4,6 +4,10 @@
 
 Identifying hotspot patterns and correcting them as early as possible is crucial in ensuring yield and manufacturability in electronic design automation (EDA). Traditional hotspot detection methods often focus on individual layers or adjacent layers, overlooking the complex interactions between multiple layers in modern layouts.
 
+<p align="center">
+  <img src="fig/pattern_extraction.png" alt="Pattern Extraction">
+</p>
+
 ## Approach:
 
 We formulate the task of many-layer critical hotspot pattern extraction as a visual question answering (VQA) problem. Treating a many-layer layout pattern as an image and a defect type as a question, we designed a layer-attention deep learning VQA model tailored to this specific problem. This model assesses whether a pattern is critical to a queried defect type by incorporating visual question answering techniques.
