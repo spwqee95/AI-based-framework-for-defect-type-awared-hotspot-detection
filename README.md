@@ -20,13 +20,13 @@ We formulate the task of many-layer critical hotspot pattern extraction as a vis
 
 We designed a specialized layer-attentioned VQA model tailored to address the complexity of layouts with more than 30 layers. This model incorporates a layer attention mechanism to dynamically highlight the importance of each layer in hotspot detection. By focusing on relevant layers for different defect types, our model enhances its ability to detect critical hotspot patterns in multi-layer layouts.
 
-<p align="center">
-  <img src="fig/model.png" alt="Model" width="75%" height="75%">
-</p>
-
 ### Layer Attention:
 
 In our model, we incorporate a layer attention mechanism to dynamically highlight the importance of each layer in hotspot detection. This allows the model to focus on relevant layers for different defect types, enhancing its ability to detect critical hotspot patterns.
+
+<p align="center">
+  <img src="fig/attention.png" alt="Layer attention">
+</p>
 
 ### Feature Fusion:
 
