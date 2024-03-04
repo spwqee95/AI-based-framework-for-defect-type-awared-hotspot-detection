@@ -16,27 +16,15 @@ We formulate the task of many-layer critical hotspot pattern extraction as a vis
   <img src="fig/approach.png" alt="VQA Model" width="70%" height="70%">
 </p>
 
-### Our Layer-Attentioned VQA Model:
-
-We designed a specialized layer-attentioned VQA model tailored to address the complexity of layouts with more than 30 layers. This model incorporates a layer attention mechanism to dynamically highlight the importance of each layer in hotspot detection. By focusing on relevant layers for different defect types, our model enhances its ability to detect critical hotspot patterns in multi-layer layouts.
-
-### Layer Attention:
-
-In our model, we incorporate a layer attention mechanism to dynamically highlight the importance of each layer in hotspot detection. This allows the model to focus on relevant layers for different defect types, enhancing its ability to detect critical hotspot patterns.
-
-<p align="center">
-  <img src="fig/attention.png" alt="Layer attention">
-</p>
-
-### Feature Fusion:
-
-Effective fusion of visual and textual features is crucial in visual question answering. In our task, we employ feature fusion techniques such as concatenation and element-wise multiplication. For instance, if a layout pattern is non-critical to defect type A but critical to defect type B, the pattern and types A, B are fused after feature extraction and transformed into a joint embedding space. Subsequently, the classifier can determine whether the pattern is critical based on the queried defect type.
-
 ## Key Features:
 
 - **Deep Learning:** Harness the power of deep learning for analyzing complex layout patterns.
 - **Computer Vision and NLP:** Integrate computer vision and NLP techniques to bridge the gap between visual patterns and textual queries.
 - **Attention Mechanism:** Utilize a layer attention mechanism to dynamically highlight the importance of each layer in hotspot detection, enhancing model interpretability and performance.
+
+<p align="center">
+  <img src="fig/attention.png" alt="Layer attention" width="65%" height="65%">
+</p>
 
 ## Dataset:
 
