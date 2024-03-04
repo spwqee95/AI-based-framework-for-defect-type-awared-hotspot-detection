@@ -5,7 +5,7 @@
 Identifying hotspot patterns and correcting them as early as possible is crucial in ensuring yield and manufacturability in electronic design automation (EDA). Traditional hotspot detection methods often focus on individual layers or adjacent layers, overlooking the complex interactions between multiple layers in modern layouts.
 
 <p align="center">
-  <img src="fig/pattern_extraction.png" alt="Pattern Extraction">
+  <img src="fig/pattern_extraction.png" alt="Pattern Extraction"  width="65%" height="65%">
 </p>
 
 ## Approach:
@@ -23,7 +23,7 @@ We formulate the task of many-layer critical hotspot pattern extraction as a vis
 - **Attention Mechanism:** Utilize a layer attention mechanism to dynamically highlight the importance of each layer in hotspot detection, enhancing model interpretability and performance.
 
 <p align="center">
-  <img src="fig/attention.png" alt="Layer attention" width="65%" height="65%">
+  <img src="fig/model.png" alt="Model" width="65%" height="65%">
 </p>
 
 ## Dataset:
@@ -31,7 +31,7 @@ We formulate the task of many-layer critical hotspot pattern extraction as a vis
 The dataset used in this study was collected from 7 layouts with sub-14nm process. It was divided into training and testing sets with an 80-20 split. The dataset consists of 57 defect types selected as queried types. There are 38 layout layers that are possibly involved in the selected defect types. In total, the dataset contains 79,593 triple data points. In the testing set, 480 patterns were labeled to 57 defect types, resulting in 27,360 pattern-defect pairs.
 
 <p align="center">
-  <img src="fig/dataset.png" alt="Dataset" width="70%" height="70%">
+  <img src="fig/dataset.png" alt="Dataset" width="60%" height="60%">
 </p>
 
 ## Results:
