@@ -6,7 +6,7 @@ Data Preparation
 
 2. Visaul Feature Extraction (CV)
    (i)  Image
-   (ii) Feature tensor (DCT transformation)
+   (ii) Feature tensor (Discrete Cosine Transform to compress the image)
 
 3. Defect Type Feature Extraction (NLP)
    (i)  Word2Vec + LSTM
