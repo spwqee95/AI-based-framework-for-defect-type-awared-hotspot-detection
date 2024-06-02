@@ -54,5 +54,5 @@ Y. -S. Chen and I. H. -R. Jiang, "Many-Layer Hotspot Detection by Layer-Attentio
 
 ## Keywords:
 
-Deep Learning; Visual Question Answering; Natural Language Processing; Computer Vision; Attention Mechanism; Electronic Design Automation; VLSI Layout; Hotspot Detection
+Deep Learning; Visual Question Answering; Natural Language Processing; Computer Vision; Attention Mechanism; Electronic Design Automation; VLSI Layout; Lithography; Hotspot Detection
 
