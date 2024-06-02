@@ -1,0 +1,11 @@
+Data Preparation
+
+1. Pattern Detection
+   (i)  Density matrix
+   (ii) Density pyramid
+2. Visaul Feature Extraction (CV)
+   (i)  Image
+   (ii) Feature tensor (DCT transformation)
+3. Defect Type Feature Extraction (NLP)
+   (i)  Word2Vec + LSTM
+   (ii) Doc2Vec
