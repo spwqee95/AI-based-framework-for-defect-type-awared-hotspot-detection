@@ -1,13 +1,13 @@
 Data Preparation
 
-1. Pattern Detection (Image Processing)
+1. Pattern Detection
    (i)  Density matrix
    (ii) Density pyramid
 
-2. Visaul Feature Extraction (Computer vision)
+2. Visaul Feature Extraction
    (i)  Image
    (ii) Feature tensor (compress the image by Discrete Cosine Transform)
 
-3. Defect Type Feature Extraction (Natural language processing)
+3. Defect Type Feature Extraction
    (i)  Word2Vec + LSTM
    (ii) Doc2Vec
