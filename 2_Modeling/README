@@ -1,0 +1,5 @@
+Two Visual Question Answering (VQA) Model
+
+1. Baseline VQA Model: a normal VQA model for benchmarking
+
+2. Our VQA Model: we design a layer-attentioned VQA model for resolving the lithography hotspot detection problem considered defect type.
